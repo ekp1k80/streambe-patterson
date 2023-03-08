@@ -1,0 +1,29 @@
+.ticket-purchase-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-layout {
+  border: 1px solid #ececec;
+  width: -webkit-fill-available;
+  padding: 20px 15%;
+}
+
+.item-container {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.purchase-button {
+  border: 1px solid #ececec;
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}

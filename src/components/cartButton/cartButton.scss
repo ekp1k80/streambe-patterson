@@ -1,0 +1,32 @@
+.cart-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: visible;
+  transition: opacity 0.3s ease-in-out, background 0.3s ease-in-out;
+  padding-right: 0;
+
+  .cart-button-text {
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.07em;
+    color: #000000;
+    margin-left: 8px;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    background: #cecece;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}

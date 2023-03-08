@@ -1,0 +1,16 @@
+.sliderButton {
+  &__button {
+    width: 2rem;
+    height: 2rem;
+    background: #000;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__button:hover {
+    opacity: .6;
+  }
+}

@@ -1,0 +1,12 @@
+.item-card-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  width: fit-content;
+
+  & p {
+    text-align: left;
+    width: 100%;
+  }
+}

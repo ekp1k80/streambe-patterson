@@ -1,0 +1,56 @@
+.slider-container {
+  position: relative;
+
+  & div {
+    outline: 0 !important;
+    border: none !important;
+    -moz-outline-style: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.slider-item {
+ padding-left: 3%;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  outline: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .item-card-layout {
+    margin-right: 24px;
+    flex-shrink: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.slider-button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.slider-button-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.slider-button-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
